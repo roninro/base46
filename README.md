@@ -1,30 +1,14 @@
-## NvChad theme plugin
+## Base46
 
-- This plugin's a whole re-write of Norcalli's plugin.
- 
-(Note: This theme plugin is supposed to be used along with [NvChad](https://github.com/NvChad/NvChad) only so watchout!)
+- This plugin's a whole re-write of Norcalli's and NvChad's plugin.
 
-## Contribute for new themes 
 
-- go to hl_themes and add your file, ex: atheme.lua
-```lua
--- atheme.lua file be like 
+## Installation
 
-local M = {}
+- vim-plug
 
-M.base_30 = {
-  -- some colors 
-}
-
-M.base_16 = {
-  -- some colors 
-}
-
-M.type = "dark" -- this can be either dark or light
-
-M = require("base46").override_theme(M, "atheme")
-
-return M
+```vim
+Plug 'roninro/base46'
 ```
 
 ## Understanding theme variables 
